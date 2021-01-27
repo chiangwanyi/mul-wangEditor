@@ -23,7 +23,7 @@ class FontColor extends DropListMenu implements MenuActive {
             type: 'inline-block',
             list: editor.config.colors.map(color => {
                 return {
-                    $elem: $(`<i style="color:${color};" class="w-e-icon-pencil2"></i>`),
+                    $elem: $(`<i style="color:${color};" class="w-e-icon-pencil2 aaa"></i>`),
                     value: color,
                 }
             }),
